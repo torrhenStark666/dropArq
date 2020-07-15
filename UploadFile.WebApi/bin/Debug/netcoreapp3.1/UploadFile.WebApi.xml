@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UploadFile.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.GetAll">
+            <summary>
+            Lista todos os registro do banco
+            </summary>
+            <returns> Retorna uma lista com todos os registros do banco</returns>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.Get(System.Object)">
+            <summary>
+            Busca determinado registro no banco
+            </summary>
+            <param name="id"> id do registro ser buscado </param>
+            <returns> Retorna uma lista com todos os registros do banco</returns>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.Save(`0)">
+            <summary>
+            Persite uma entidade no banco
+            </summary>
+            <param name="entity"> Entidade a ser persisitido </param>
+            <returns>Retorna a entidade já persistida no banco</returns>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.SaveRange(System.Collections.Generic.List{`0})">
+            <summary>
+            Persite uma range de entidades no banco
+            </summary>
+            <param name="entity"> Lista de Entidades a serem persisitidas </param>
+            <returns>Retorna a Lista com as entidades já persistidas no banco</returns>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.Update(`0)">
+            <summary>
+            Atualiza um registro no banco
+            </summary>
+            <param name="entity">Entidade atualizada</param>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.UpdateRange(System.Collections.Generic.List{`0})">
+            <summary>
+            Atualiza um range de registros no banco
+            </summary>
+            <param name="entity">Lista de Entidades a serem atualizadas</param>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.Delete(System.Int64)">
+            <summary>
+            Remove um registro no banco
+            </summary>
+            <param name="id">Id da entidade a ser removida</param>
+        </member>
+        <member name="M:UploadFile.WebApi.Repositories.Interfaces.IBaseRepository`1.DeleteRange(System.Collections.Generic.List{`0})">
+            <summary>
+            Remove um range de registros no banco
+            </summary>
+            <param name="entity">Lista de Entidades a serem atualizadas</param>
+        </member>
+    </members>
+</doc>
